@@ -7,9 +7,9 @@ items = [
     {"name": "Jumanji", "category": "movie", "genre": "comedy", "rating": 8},
     {"name": "Home Alone", "category": "movie","genre": "comedy", "rating": 8},
     {"name": "Jurassic Park", "category": "movie","genre":"adventure","rating": 8},
-    {"name": "Harry Potter and the Prisoner of Azkaban", "category": "movie","genre":"fantasy", "rating": 8},
-    {"name": "Atomic Habits", "category": "book", "genre": "self-help", "rating": 9},
+    {"name": "Harry Potter and the Prisoner of Azkaban", "category": "movie","genre":"fiction", "rating": 8},
     {"name": "The Alchemist", "category": "book", "genre": "fiction", "rating": 8},
+    {"name": "Diary of a Wimpy Kid", "category": "book", "genre": "comedy", "rating": 7},
     {"name": "The Hunger Games","category": "book", "genre": "adventure", "rating": 9},
     {"name": "The Women in the Window", "category": "book", "genre": "thriller", "rating": 9},
     {"name": "Wireless Headphones", "category": "product", "genre": "electronics", "rating": 8},
@@ -37,4 +37,5 @@ def recommend():
             found = True
     if not found:
         print("Sorry, no items matched your preferences.")
+
 recommend()
