@@ -1,4 +1,4 @@
-# CODSOFT
+# Project
 Tasks of Artificial Intelligence 
 All the projects are implemented using Python logic and written direcly on GitHub.
 
